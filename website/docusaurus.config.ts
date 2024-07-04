@@ -55,6 +55,11 @@ const config: Config = {
   ],
 
   themeConfig: {
+    algolia: {
+      appId: '4B4Q9TEFOO',
+      apiKey: '2591afdfde2524327b6142cd2e4ba4ae',
+      indexName: 'jn-state-management-collection',
+      },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
@@ -122,7 +127,7 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
+    },   
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
